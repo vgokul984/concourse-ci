@@ -17,7 +17,7 @@ resources:
     source:
       aws_access_key_id: ((docker-hub-username))
       aws_secret_access_key: ((docker-hub-password))
-      repository: ((docker-hub-username))/((docker-hub-repo-name))
+      repository: ((awsrepo))
 
   - name: kubectl
     type: kubectl-resource
